@@ -1,0 +1,13 @@
+==================================================
+Algorithm -> Machine Learning (machine learn to do itself) -> AI
+==================================================
+
+          +--- Pseudocodde/Algorithm
+          |    flowchart/process map/process model/workflow diagram
+Algorithm |    code/programming language
+          |    UML/Unified Model Langauge chart
+          +--- Drakon chart
+                    .
+                    ,
+                    .
+=================================================================
