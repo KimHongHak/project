@@ -57,7 +57,7 @@ void run_p(){
     scan_p(p,i);
     p[i-1].amount = p[i-1].price * p[i-1].qty;
     print_p(p,i);
-    printf("do you insert more product? (yes/no): ");scanf("%s", &ans);
+    printf("do you insert more product? (yes/no): ");scanf("%s", ans);
     if (strcmp(ans,"yes") == 0 || strcmp(ans,"y") == 0) {
         i++;
         p = realloc(p, i*sizeof(struct product));
