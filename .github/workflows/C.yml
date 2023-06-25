@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: build
-      run: cd c/program2 && make build
+      run: cd c/program1 && make build
