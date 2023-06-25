@@ -11,14 +11,14 @@ task: ; a label
 	
 	; do arithmetic
 	mov rax, [a] ; mov  char '1' (reference a) to rax
-	sub rax, '0' ; convert to integer, rax = '0' - rax
+	sub rax, '0' ; convert to integer, rax = rax - '0'
 	mov rbx, [b] ; mov  char '2' (reference b) to rbx
-	sub rbx, '0' ; convert to integer, rbx = '0' - rbx
-	add rax, rbx ; do additon-arithmetic, rax = rbx + rax
-	add rax, '0' ; convert to char, rax = '0' + rax
+	sub rbx, '0' ; convert to integer, rbx = rbx - '0'
+	add rax, rbx ; do additon-arithmetic, rax = rax + rbx
+	add rax, '0' ; convert to char, rax = rax + '0'
 	mov [sum], rax ; mov the char  to reference sum 
 
-	; pprint str
+	; print str
 	mov rdx, str_len ; the length of the string 
 	mov rcx, str    ; the string to be output (str is a pointer to string)
 	mov rbx, 1 ; stdout
