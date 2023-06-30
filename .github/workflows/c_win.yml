@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: build
       shell: bash
-      run: which gcc && cd c/program1 && make build
+      run: which gcc && cd c/program1 && make build && ls
     - uses: actions/upload-artifact@v3
       with:
-        path: c/program1/a.out
+        path: c/program1/a.ext
