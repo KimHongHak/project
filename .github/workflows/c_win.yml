@@ -16,4 +16,4 @@ jobs:
       run: which gcc && cd c/program1 && make build && ls
     - uses: actions/upload-artifact@v3
       with:
-        path: c/program1/a.ext
+        path: c/program1/a.exe
