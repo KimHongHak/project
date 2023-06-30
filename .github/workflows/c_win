@@ -1,0 +1,18 @@
+name: C_win
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      run: cd c/program1 && make build
+    - uses: actions/upload-artifact@v3
+      with:
+        path: c/program1/a.out
