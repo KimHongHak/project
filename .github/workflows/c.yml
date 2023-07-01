@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: build
-      run: cd c/program1 && make build
+      run: cd c/program1 && make build && which clang && clang --help
     - uses: actions/upload-artifact@v3
       with:
         path: c/program1/a.out
