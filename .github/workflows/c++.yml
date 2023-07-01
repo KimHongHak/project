@@ -6,26 +6,28 @@ on:
     branches: [ "dev" ]
 jobs:
   build_lin:
-   # strategy: 
-    #  matrix: 
-   #     target: [ubuntu-latest, windows-latest]
+    strategy: 
+      matrix: 
+        program: [p1]
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     - name: build
-      run: cd c++/p1 && make build
+      run: cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}
     - uses: actions/upload-artifact@v3
       with:
-        path: c++/p1/a.out
+        path: c++/${{ matrix.program }}/${{ matrix.program }}
   build_win:
+    strategy:
+      matrix:
+        program: [p1]
     runs-on: windows-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: build
       shell: bash
-      run: cd c++/p1 && make build
+      run: cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}
     - uses: actions/upload-artifact@v3
       with:
-        path: c++/p1/a.exe
+        path: c++/${{ matrix.program }}/ ${{ matrix.program }}.exe
