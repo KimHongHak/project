@@ -30,4 +30,4 @@ jobs:
       run: cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}
     - uses: actions/upload-artifact@v3
       with:
-        path: c++/${{ matrix.program }}/ ${{ matrix.program }}.exe
+        path: c++/${{ matrix.program }}/${{ matrix.program }}.exe
