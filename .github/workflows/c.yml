@@ -24,6 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: build
+      shell: bash
       run: cd c/program1 && make build && ls
     - uses: actions/upload-artifact@v3
       with:
