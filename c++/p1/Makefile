@@ -1,2 +1,3 @@
 name := $(output)
-build: clang++ -static -o ${name} main.cc
+build: 
+	clang++ -static -o ${name} main.cc
