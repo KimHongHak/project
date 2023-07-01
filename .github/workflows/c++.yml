@@ -1,0 +1,31 @@
+name: C++
+on:
+  push:
+    branches: [ "dev" ]
+  pull_request:
+    branches: [ "dev" ]
+jobs:
+  build_lin:
+   # strategy: 
+    #  matrix: 
+   #     target: [ubuntu-latest, windows-latest]
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      run: cd c++/p1 && make build
+    - uses: actions/upload-artifact@v3
+      with:
+        path: c++/p1/a.out
+  build_win:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      shell: bash
+      run: cd c++/p1 && make build
+    - uses: actions/upload-artifact@v3
+      with:
+        path: c++/p1/a.exe
