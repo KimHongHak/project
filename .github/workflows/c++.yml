@@ -27,7 +27,9 @@ jobs:
     - uses: actions/checkout@v3
     - name: build
       shell: bash
-      run: cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}.exe
+      run: |
+        cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}.exe
+        && clang++ -dM -E -x c++ main.cc
     - uses: actions/upload-artifact@v3
       with:
         path: c++/${{ matrix.program }}/${{ matrix.program }}.exe
