@@ -14,7 +14,9 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: build
-      run: cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}
+      run: |
+        cd c++/${{ matrix.program }} && make build output=${{ matrix.program }}
+        clang++ -dM -E -x c++ main.cc
     - uses: actions/upload-artifact@v3
       with:
         path: c++/${{ matrix.program }}/${{ matrix.program }}
