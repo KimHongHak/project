@@ -11,3 +11,9 @@ Algorithm |    code/programming language
                     ,
                     .
 =================================================================
+ thousands hundreds tens ones/units tenths hundreths thousandths (place/digit)
+ 10^3      10^2     10^1 10^0       10^-1  10^-2     10^-3 (s place/digit) 
+(1         3        2    7 .        5      2         5)10
+
+2^2 2^1 2^0  2^-1 2^-2 2^-3 (s place/digit)
+(1   0   1  . 0    1    1)2
