@@ -9,7 +9,7 @@ initial: ; a label
 task: ; a label
 	push rax ; push val of rax to stack 'cause rax may be used later
 	
-	; do arithmetic
+	; do arithmetic, '0' = 30h
 	mov rax, [a] ; mov  char '1' (reference a) to rax
 	sub rax, '0' ; convert to integer, rax = rax - '0'
 	mov rbx, [b] ; mov  char '2' (reference b) to rbx
