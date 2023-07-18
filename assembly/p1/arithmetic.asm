@@ -8,7 +8,6 @@ initial: ; a label
 	jmp condition ; jump to conditon
 task: ; a label
 	push rax ; push val of rax to stack 'cause rax may be used later
-	
 	; do arithmetic, '0' = 30h
 	mov rax, [a] ; mov  char '1' (reference a) to rax
 	sub rax, '0' ; convert to integer, rax = rax - '0'
@@ -17,21 +16,18 @@ task: ; a label
 	add rax, rbx ; do additon-arithmetic, rax = rax + rbx
 	add rax, '0' ; convert to char, rax = rax + '0'
 	mov [sum], rax ; mov the char  to reference sum 
-
 	; print str
 	mov rdx, str_len ; the length of the string 
 	mov rcx, str    ; the string to be output (str is a pointer to string)
 	mov rbx, 1 ; stdout
 	mov rax, 4 ; write
 	int 0x80 ; call kernel/ interupt to execute 0x80
-
 	; print sum
 	mov rdx, 1;; the length of the char
 	mov rcx, sum ; the char to be output (sum is a pointer)
 	mov rbx, 1 ; stdout
 	mov rax, 4 ; write
 	int 0x80 ; call kernel, interupt to execute 0x80
-	
 	; print newline
 	mov rdx, 1;; the length of the char
 	mov rcx, newline ; the char 0x0a to be output (newline is a pointer)
