@@ -28,6 +28,7 @@ impl Matrix{
 		}
 	}
 	}
+
 #[derive(Debug)]
 struct Matrix_operation{
 	m : Option<usize>,
@@ -85,6 +86,38 @@ impl Matrix_operation{
 			}
 		}
 	}
+	fn inverse(&mut self){
+/*
+R1 <-> R2
+k * R1 -> R1
+R2 + k*R1 -> R2
+Gaussian elimination [->((row echelon form)/(reduced row echelon form))]
+Algorithm:		
+h := 1 /* Initialization of the pivot row */
+k := 1 /* Initialization of the pivot column */
+
+while h ≤ m and k ≤ n
+    /* Find the k-th pivot: */
+    i_max := argmax (i = h ... m, abs(A[i, k]))
+    if A[i_max, k] = 0
+        /* No pivot in this column, pass to next column */
+        k := k + 1
+    else
+        swap rows(h, i_max)
+        /* Do for all rows below pivot: */
+        for i = h + 1 ... m:
+            f := A[i, k] / A[h, k]
+            /* Fill with zeros the lower part of pivot column: */
+            A[i, k] := 0
+            /* Do for all remaining elements in current row: */
+            for j = k + 1 ... n:
+                A[i, j] := A[i, j] - A[h, j] * f
+        /* Increase pivot row and column */
+        h := h + 1
+        k := k + 1
+*/
+	}
+
 	fn output(&self){
 		for i in 0..self.m.expect("error"){
 		for j in 0..self.n.expect("error"){
@@ -115,13 +148,22 @@ fn create_matrix(){
 	B.input();
 	B.output();
 
-	// let mut C = Matrix_operation{m:None,n:None,content:None};
-	// C.transpose(&A);
-	// C.output();
-
-	let mut D = Matrix_operation{m:None,n:None,content:None};
-	D.scalar_multiplication(&A,5);
+	let mut C = Matrix_operation{n:None,m:None,content:None};
+	C.add_matrix(&A,&B);
+	C.output();
+	let mut D = Matrix_operation{n:None,m:None,content:None};
+	D.transpose(&A);
 	D.output();
+	let mut E = Matrix_operation{m:None,n:None,content:None};
+	E.multiply_matrix(&A,&B);
+	E.output();
+
+	let mut k = String::new();
+	io::stdin().read_line(&mut k);
+	let k = k.trim().parse::<i32>().unwrap();
+	let mut F: Matrix_operation = Matrix_operation{m:None,n:None,content:None};
+	F.scalar_multiplication(&A, k);
+	F.output();
 }
 fn main(){
 	create_matrix();
