@@ -7,7 +7,7 @@ protected:
 public:
   Sale():Product(){}
   Sale(int i,std::string n, int q, float c,float p):Product(i,n,q,c){
-    this->price = price;
+    this->price = p;
   }
   void setData(int i,std::string n,int q, float c, float p){
     this->id =i;

@@ -25,13 +25,13 @@ public:
   void setQty(int i){
     this->qty=i;
   }
-  void setCost(flaot i){
+  void setCost(float i){
     this->cost=i;
   }
-  void getId(){
+  int getId(){
     return this->id;
   }
-  void getQty(){
+  int getQty(){
     return this->qty;
   }
   std::string getName(){

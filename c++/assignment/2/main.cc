@@ -6,7 +6,7 @@ void Delete(Sale[],int);
 void sort(Sale[],int);
 void update(Sale[],int);
 void input(Sale[],int);
-void main(){
+int main(){
 Sale p[28];
 int i,n;
 std::cout <<"input n: ";std::cin>>n;
@@ -63,5 +63,5 @@ void sort(Sale *p, int n){
   output(p,n);
 }
 void update(){
-  
+
 }
