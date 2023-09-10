@@ -1,5 +1,5 @@
 #ifndef Product_H
-#def Product_H
+#define Product_H
 class Product{
 protected:
   int id,qty;

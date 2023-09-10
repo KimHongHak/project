@@ -1,5 +1,5 @@
 #if ! defined(Sale_h)
-#def Sale_h
+#define Sale_h
 #include "product.h"
 class Sale: public Product{
 protected:
