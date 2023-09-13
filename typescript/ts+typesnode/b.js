@@ -41,6 +41,97 @@ var r1 = rl.createInterface({
     input: process.stdin,
     output: process.stdout
 });
+var Matrix = /** @class */ (function () {
+    function Matrix(n, m, data) {
+        this.n = n;
+        this.m = m;
+        this.data = data;
+    }
+    Matrix.prototype.replace = function () {
+        return __awaiter(this, void 0, void 0, function () {
+            var _loop_1, this_1, i;
+            var _this = this;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, (function () { return new Promise(function (res, rej) {
+                            r1.question("", function (n) {
+                                _this.n = n;
+                                res("");
+                            });
+                        }); })()];
+                    case 1:
+                        _a.sent();
+                        console.log(this.n);
+                        return [4 /*yield*/, (function () { return new Promise(function (res, rej) {
+                                r1.question("", function (m) {
+                                    _this.m = m;
+                                    res("");
+                                });
+                            }); })()];
+                    case 2:
+                        _a.sent();
+                        console.log(this.n);
+                        _loop_1 = function (i) {
+                            var _loop_2, j;
+                            return __generator(this, function (_b) {
+                                switch (_b.label) {
+                                    case 0:
+                                        _loop_2 = function (j) {
+                                            return __generator(this, function (_c) {
+                                                switch (_c.label) {
+                                                    case 0: return [4 /*yield*/, (function () { return new Promise(function (res, re) {
+                                                            r1.question("", function (d) {
+                                                                _this.data[i][j] = d;
+                                                            });
+                                                        }); })()];
+                                                    case 1:
+                                                        _c.sent();
+                                                        return [2 /*return*/];
+                                                }
+                                            });
+                                        };
+                                        j = 0;
+                                        _b.label = 1;
+                                    case 1:
+                                        if (!(j < this_1.n)) return [3 /*break*/, 4];
+                                        return [5 /*yield**/, _loop_2(j)];
+                                    case 2:
+                                        _b.sent();
+                                        _b.label = 3;
+                                    case 3:
+                                        j++;
+                                        return [3 /*break*/, 1];
+                                    case 4: return [2 /*return*/];
+                                }
+                            });
+                        };
+                        this_1 = this;
+                        i = 0;
+                        _a.label = 3;
+                    case 3:
+                        if (!(i < this.m)) return [3 /*break*/, 6];
+                        return [5 /*yield**/, _loop_1(i)];
+                    case 4:
+                        _a.sent();
+                        _a.label = 5;
+                    case 5:
+                        i++;
+                        return [3 /*break*/, 3];
+                    case 6: return [2 /*return*/];
+                }
+            });
+        });
+    };
+    Matrix.prototype.output = function () {
+        for (var i = 0; i < this.m; i++) {
+            for (var j = 0; j < this.n; j++) {
+                process.stdout.write(String(this.data[i][j]));
+            }
+            console.log();
+        }
+    };
+    return Matrix;
+}());
 function p1() {
     return new Promise(function (res, rej) {
         r1.question("enter your name: ", function (ans) {
@@ -58,15 +149,19 @@ function p2() {
         });
     });
 }
+var x = new Promise(function (res, rej) {
+    console.log("hi");
+    res("");
+});
 function main() {
     return __awaiter(this, void 0, void 0, function () {
+        var x;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, p1()];
+                case 0:
+                    x = new Matrix(1, 2, [[]]);
+                    return [4 /*yield*/, x.replace()];
                 case 1:
-                    _a.sent();
-                    return [4 /*yield*/, p2()];
-                case 2:
                     _a.sent();
                     console.log("you are ".concat(nam));
                     console.log("you are ".concat(age));

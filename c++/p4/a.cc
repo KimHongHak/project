@@ -28,13 +28,13 @@ public:
 				} else {
 					if (this->average() < 70){
 						return 'D';
-					} else { 
+					} else {
 						if (this->average() < 80){
 							return 'C';
 						} else {
 							if (this->average() < 90){
 								return 'B';
-							
+
 						} else {
 							return 'A';}
 						}}
@@ -45,7 +45,7 @@ public:
 		cin.getline(this->name, 30);
 		cin.getline(this->name, 30);
 		cout << "Enter sex"; cin >> this->sex;
-		cout << "Enter math";cin >> this->math; 
+		cout << "Enter math";cin >> this->math;
 		cout << "Enter engl";cin >> this->engl;
 		cout << "Enter cplu";cin >> this->cplu;
 		}
@@ -83,7 +83,7 @@ public:
 	char* getname(){
 		return this->name;
 	}
-};	
+};
 int main(){
 	Student s1 {};
 	s1.input();
