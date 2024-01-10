@@ -1,0 +1,4 @@
+in numberal compound (compound that include number), the number usually on-yomi except 4,7 which is kun-yomi
+single kanji = on or kun-yomi
+single kanji with okurigana = kun-yomi
+compounds is probrably on-yomi but there is kun-yomi or mix as well.

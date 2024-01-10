@@ -5,5 +5,5 @@ ts+typesnode.txz.tar
 *.out
 rust/**/target
 *.o
-
+*.exe
 librepcb/v0.1

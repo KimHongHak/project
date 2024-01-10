@@ -1,0 +1,48 @@
+*** Present connect past to future.  ***
+*** Permanent state: don't expect the situation to change (indefinite/unlimited)***
+*** Tempoary state: expect the situation to change (finite/limited) ***           
+*** subjunctive  (presnt(simple,perfect), past(simple,progressive,perfect, perfect prograssive)   
+*** Temse/aspect/mood ~ modal verb (will/do/did/would but can,could/may,might != aspect) 
+       past   at the moment/now  future
+<---------------------|----------------->
+<-------------->-------------<----------> 
+     past          present      future
+Tense 3 -> Present -> (Circumstance that exit in present time/over peroid of time that include present time)
+                   -> (General Truth)
+                   -> (Future Circumstances)
+                   -> (no particular real time as in telling story)
+                   -> (recounting past event)
+         -> Past   ->  (Circumstance exsting at some time in the past)
+                   -> (Hypothetical situation as in conditional sentences, dependent clauses and expressions of wish) 
+                   -> (Certain uses of the past tense may be referred to as subjunctives, however the only distinction in verb conjugation between the past indicative and past subjunctive is the possible use of were in the subjunctive in place of was.)
+         -> Future  -> (an event will occur at a future time, English lacks a morphological future tense, since there is no verb inflection which expresses that an event will occur at a future time. However, the term "future tense" is sometimes applied to periphrastic constructions involving modals such as will, shall, and to be going to)
+                    -> (The morphological present tense can be used to refer to future times, particularly in conditional sentences and dependent clauses.)
+
+Aspect 4 -> Simple      -> (Single action/perfective aspect)  Brutus killed Caesar
+                        -> (Repeated action/habitual aspect)  I go to school
+                        -> (Permanent state) We live in Dallas
+                        -> (Temporary state with stative verb)          
+         -> Progressive/Continuous  -> (temporary action that begin in previous time and  coninues to present time/other time of reference)
+                                    ->  
+         -> Perfect                 ->  (circumstance of an action's being complete at a certain time)
+                                    -> (states or habitual action)
+  
+         -> Perfect Progressive     -> (completed portion of a continuing action or temporary state)
+
+
+Mood 4 -> Indicative ( finite verb forms that are not marked as subjunctive and are neither imperatives nor conditionals. They are the verbs typically found in the main clauses of declarative sentences and questions formed from them, as well as in most dependent clauses (except for those that use the subjunctive))
+       -> Subjunctive (The present subjunctive takes a form identical to the bare infinitive, as in It is necessary that he be restrained. There is also a past subjunctive, distinct from the indicative only in the possible use of were in place of was in certain situations: If I were you, )
+       -> Imperative (An independent clause in the imperative mood uses the base form of the verb,)
+       -> Condition (The English conditional is expressed periphrastically with verb forms governed by the auxiliary verb would (or sometimes should with a first-person singular subject; see shall and will). The modal verb could is also sometimes used as a conditional (of can).)
+
+past simple/simple past/preterite  -> a single event in the past, for past habitual action, or for a past state (He took the money and ran.  I visited them every day for a year.  I knew how to fight even as a child.)
+                                   -> event happened at a particular time in the past, or during a period which ended in the past (i.e. a period that does not last up until the present time). This time frame may be explicitly stated, or implicit in the context (for example the past tense is often used when describing a sequence of past events) (I was born in 1980.  We turned the oven off two minutes ago.  I came home at 6 o'clock.  When did they get married?  We wrote two letters this morning.  She placed the letter on the table, sighed, and left the house.) 
+                                  -> temporary state (The dog was in its kennel.  I felt cold.)
+                                  -> hypothetical circumstances without referring to past time (If he walked faster, he would get home earlier.  I wish I knew what his name was.  I would rather she wore a longer dress.)
+past progressive -> an action that was ongoing at the past time being considered
+                 ->  past action that occurred over a range of time and is viewed as an ongoing situation
+                 ->  an action that was interrupted by an event, or for two actions taking place in parallel
+past perfect/pluperfect -> referring to an event that took place prior to the time frame being considered. (We had finished the job by 2 o'clock/He had already left when we arrived.)
+                 ->states or repeated occurrences pertaining over a period up to a time in the past (I had lived in that house for 10 years./The children had been in their room since lunchtime.)
+                 -> 
+Past perfect progressive -> 
