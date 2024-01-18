@@ -1,0 +1,36 @@
+
+
+abstract class CreateFileTask : DefaultTask() {
+    @get:Input
+    abstract val fileText: Property<String>
+
+    @Input
+    val fileName = "myfile.txt"
+
+    @OutputFile
+    val myFile: File = File(fileName)
+
+    @TaskAction
+    fun action() {
+        myFile.createNewFile()
+        myFile.writeText(fileText.get())
+        println("me")
+    }
+}
+
+tasks.register<CreateFileTask>("createFileTask") {
+    group = "custom"
+    description = "Create myfile.txt in the current directory"
+    fileText = " nope"
+//    fileText.set("HELLO FROM THE CREATE FILE TASK METHOD") // Set convention
+}
+
+tasks.named<CreateFileTask>("createFileTask") {
+    description = "hello"
+    fileText="uu"
+    doLast {
+        println("hi")
+    }
+//    fileText.convention("HELLO FROM THE NAMED METHOD") // Override with custom message
+}
+
