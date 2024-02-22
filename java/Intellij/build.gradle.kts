@@ -17,7 +17,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 application {
-    mainClass = "JOptionPane.JOptionpane"
+    mainClass = "james1freedictionary.github.io.employee"
 }
 tasks.named<JavaExec>("run") {
     standardInput = System.`in`

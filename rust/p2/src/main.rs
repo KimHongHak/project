@@ -4,6 +4,8 @@ use std::io::stdout;
 use std::io::stdin;
 use std::io::Write;
 use std::str;
+// use std::fmt::Debug;
+
 fn to_num<T: str::FromStr>(arg: String) -> T where <T as str::FromStr>::Err:std::fmt::Debug
 {
     arg.trim().parse::<T>().unwrap()
