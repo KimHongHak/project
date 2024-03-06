@@ -1,11 +1,10 @@
 // /*  Box, &, *, ref */
-
 // enum A<T,E>{
 //     a(T),
 //     b(E),
 // }
 // fn main() {
-   
+
 // //    let mut  x: i32 = 5;
 // //    let  y:  &mut i32 = &mut x;
 // //    *y = 10;
@@ -25,13 +24,13 @@
 // }
 // fn main(){
 //     println!(r"Hello and
-//     welcome to...                      
-//               _   _ _                  
-// _ __ _   _ ___| |_| (_)_ __   __ _ ___  
-// | '__| | | / __| __| | | '_ \ / _` / __| 
-// | |  | |_| \__ \ |_| | | | | | (_| \__ \ 
-// |_|   \__,_|___/\__|_|_|_| |_|\__, |___/ 
-//                             |___/      
+//     welcome to...
+//               _   _ _
+// _ __ _   _ ___| |_| (_)_ __   __ _ ___
+// | '__| | | / __| __| | | '_ \ / _` / __|
+// | |  | |_| \__ \ |_| | | | | | (_| \__ \
+// |_|   \__,_|___/\__|_|_|_| |_|\__, |___/
+//                             |___/
 
 // This exercise compiles successfully. The remaining exercises contain a compiler
 // or logic error. The central concept behind Rustlings is to fix these errors and
@@ -66,7 +65,7 @@
 //     name(& i32)
 // }
 
-fn main(){
+fn main() {
     // let x: String = String::from("hi");
     // let y: &'static str = "hi";
     // let x: Person = Person::name(&2);
@@ -74,4 +73,4 @@ fn main(){
     // let k: &str = x ;
     let y: &'static i32 = &x[2..4];
     println!("{}", y);
-    }
+}
