@@ -3,7 +3,7 @@
 //     a(T),
 //     b(E),
 // }
-// fn main() {
+// fn main() { then
 
 // //    let mut  x: i32 = 5;
 // //    let  y:  &mut i32 = &mut x;

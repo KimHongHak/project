@@ -1,0 +1,17 @@
+<circuit type="simulide_1.0" rev="1279" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="1" >
+
+<item itemtype="AudioOut" CircId="AudioOut-1196" mainComp="true" Show_id="false" Show_Val="false" Pos="156,-124" rotation="0" hflip="1" vflip="1" label="AudioOut-1196" idLabPos="-20,-36" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="104,-64" circPos="156,-124" boardRot="0" circRot="0" Buzzer="false" Impedance="10 Ω" />
+
+<item itemtype="Tunnel" CircId="Tunnel-1197" mainComp="false" Show_id="false" Show_Val="false" Pos="128,-132" rotation="0" hflip="1" vflip="1" label="Tunnel-1197" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="76,-72" circPos="128,-132" boardRot="0" circRot="0" Name="AVZ" />
+
+<item itemtype="Ground" CircId="Ground-1200" mainComp="false" Show_id="false" Show_Val="false" Pos="132,-100" rotation="0" hflip="1" vflip="1" label="Ground-1200" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="80,-40" circPos="132,-100" boardRot="0" circRot="0" />
+
+<item itemtype="Package" CircId="Package-1202" mainComp="false" Show_id="true" Show_Val="false" Pos="52,-60" rotation="0" hflip="1" vflip="1" label="AVOZ" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="2 Cells" Height="2 Cells" Package_File="AVOZ_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Rectangle" CircId="Rectangle-1208" mainComp="false" Show_id="false" Show_Val="false" Pos="68,-52" rotation="0" hflip="1" vflip="1" label="Rectangle-1208" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,8" circPos="68,-52" boardRot="0" circRot="0" H_size="5 Pixels" V_size="22 Pixels" Border="2 Pixels" Z_Value="-1" Color="#00ff80" Opacity="1" />
+
+<item itemtype="Connector" uid="connector-1209" startpinid="Tunnel-1197-pin" endpinid="AudioOut-1196-lPin" pointList="128,-132,140,-132" />
+
+<item itemtype="Connector" uid="connector-1210" startpinid="Ground-1200-Gnd" endpinid="AudioOut-1196-rPin" pointList="132,-116,132,-124,140,-124" />
+
+</circuit>

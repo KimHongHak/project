@@ -1,0 +1,8 @@
+emu8086/QEMU/bochs/WinAPE/YAZE
+
+Merriam-webster/oxford advanced learner's dictionary/Wiktionary
+
+postgreSQL
+Mariadb/MySQL
+Mongodb
+SQLite/Redis

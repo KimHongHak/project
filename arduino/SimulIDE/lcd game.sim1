@@ -1,0 +1,35 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-2" mainComp="false" Show_id="true" Show_Val="false" Pos="772,468" rotation="0" hflip="1" vflip="1" label="Uno-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="2_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="2_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="lcd game.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="Push" CircId="Push-3" mainComp="false" Show_id="false" Show_Val="false" Pos="720,712" rotation="270" hflip="1" vflip="1" label="Push-3" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Hd44780" CircId="Hd44780-34" mainComp="false" Show_id="true" Show_Val="false" Pos="672,468" rotation="0" hflip="1" vflip="1" label="Hd44780-34" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Rows" Cols="16 _Columns" />
+
+<item itemtype="Ground" CircId="Ground-42" mainComp="false" Show_id="false" Show_Val="false" Pos="664,748" rotation="0" hflip="1" vflip="1" label="Ground-42" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-48" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="628,684" rotation="0" hflip="1" vflip="1" label="Rail-48" idLabPos="-16,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="720,684" />
+
+<item itemtype="Connector" uid="connector-53" startpinid="Hd44780-34-PinRS" endpinid="Uno-2-12" pointList="688,476,688,588,780,588" />
+
+<item itemtype="Connector" uid="connector-54" startpinid="Hd44780-34-PinEn" endpinid="Uno-2-11" pointList="704,476,704,580,780,580" />
+
+<item itemtype="Connector" uid="connector-55" startpinid="Hd44780-34-dataPin5" endpinid="Uno-2-4" pointList="752,476,752,516,780,516" />
+
+<item itemtype="Connector" uid="connector-56" startpinid="Hd44780-34-dataPin6" endpinid="Uno-2-3" pointList="760,476,760,508,780,508" />
+
+<item itemtype="Connector" uid="connector-57" startpinid="Hd44780-34-dataPin7" endpinid="Uno-2-2" pointList="768,476,768,500,780,500" />
+
+<item itemtype="Connector" uid="connector-58" startpinid="Ground-42-Gnd" endpinid="Push-3-pinP0" pointList="664,732,720,732,720,728" />
+
+<item itemtype="Connector" uid="connector-59" startpinid="Rail-48-outnod" endpinid="Node-65-0" pointList="644,684,720,684" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Node-65-2" endpinid="Push-3-switch0pinN" pointList="720,684,720,696" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Node-65-1" endpinid="Uno-2-8" pointList="720,684,720,556,780,556" />
+
+</circuit>
