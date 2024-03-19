@@ -172,7 +172,6 @@ dragon 24.02.0-1
 drkonqi 6.0.2-3
 dtc 1.7.0-4
 duktape 2.7.0-6
-dvisvgm 3.2.2-1
 dynamips 0.2.23-1
 dynamips-debug 0.2.23-1
 e2fsprogs 1.47.0-2
@@ -201,7 +200,6 @@ faac 1.30-4
 faad2 2.11.1-1
 fakeroot 1.34-1
 falkon 24.02.0-1
-ffcall 2.4-2
 ffmpeg 2:6.1.1-6
 ffmpeg4.4 4.4.4-4
 ffmpegthumbs 24.02.0-1
@@ -1021,7 +1019,6 @@ libsecret 0.21.4-1
 libshout 1:2.4.6-2
 libshumate 1.1.3-1
 libsigc++ 2.12.1-1
-libsigsegv 2.14-2
 libsixel 1.10.3-5
 libslirp 4.7.0-1
 libsm 1.2.4-1
@@ -1633,8 +1630,6 @@ signon-plugin-oauth2 0.25-3
 signon-ui 0.17+20231016-2
 signond 8.61-3
 simple-scan 44.0-2
-simulide 1.0.0_SR2-1
-simulide-debug 1.0.0_SR2-1
 skanlite 24.02.0-2
 skanpage 24.02.0-1
 skladnik 0.5.2-1
@@ -1682,7 +1677,6 @@ systemd 255.4-2
 systemd-libs 255.4-2
 systemd-sysvcompat 255.4-2
 systemsettings 6.0.2-3
-t1lib 5.1.2-8
 taglib 2.0-1
 talloc 2.4.1-1
 tar 1.35-2
@@ -1695,30 +1689,6 @@ tesseract-data-afr 2:4.1.0-4
 tesseract-data-osd 2:4.1.0-4
 tevent 1:0.15.0-1
 texinfo 7.1-2
-texlive-basic 2023.66594-20
-texlive-bibtexextra 2023.66594-20
-texlive-bin 2023.66984-19
-texlive-binextra 2023.66594-20
-texlive-context 2023.66594-20
-texlive-doc 2023.66594-20
-texlive-fontsextra 2023.66594-20
-texlive-fontsrecommended 2023.66594-20
-texlive-fontutils 2023.66594-20
-texlive-formatsextra 2023.66594-20
-texlive-games 2023.66594-20
-texlive-humanities 2023.66594-20
-texlive-latex 2023.66594-20
-texlive-latexextra 2023.66594-20
-texlive-latexrecommended 2023.66594-20
-texlive-luatex 2023.66594-20
-texlive-mathscience 2023.66594-20
-texlive-metapost 2023.66594-20
-texlive-music 2023.66594-20
-texlive-pictures 2023.66594-20
-texlive-plaingeneric 2023.66594-20
-texlive-pstricks 2023.66594-20
-texlive-publishers 2023.66594-20
-texlive-xetex 2023.66594-20
 threadweaver 6.0.0-1
 threadweaver5 5.115.0-1
 thunar 4.18.10-1
@@ -1964,4 +1934,3 @@ zoom 5.17.11-1
 zstd 1.5.5-1
 zvbi 0.2.42-1
 zxing-cpp 2.2.1-1
-zziplib 0.13.74-1
