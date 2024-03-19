@@ -6,3 +6,5 @@ postgreSQL
 Mariadb/MySQL
 Mongodb
 SQLite/Redis
+
+Nginx/Apache Http Server/Lighttpd/Caddy

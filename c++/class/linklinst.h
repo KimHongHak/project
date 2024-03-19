@@ -1,3 +1,3 @@
-class Linklist {
-  
+class Linklist
+{
 }
