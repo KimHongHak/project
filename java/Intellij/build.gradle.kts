@@ -17,8 +17,16 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 application {
-    mainClass = "james1freedictionary.github.io.employee"
+   // mainClass = "polymorphism.polymorphismTest"
+//  mainClass = "polymorphism.BankName"
+//    mainClass = "abstractclass.Animaltest"
+//    mainClass = "pkginterface.InterfaceDemo"
+//    mainClass = "pkginterface.Interface"
+//    mainClass = "interfacestu.InterfaceMain"
+    mainClass = "arraylists.ArrayListIterator"
 }
+
+
 tasks.named<JavaExec>("run") {
     standardInput = System.`in`
 }

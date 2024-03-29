@@ -13,8 +13,12 @@ struct d{
     int b;
 };
 int main(){
-int a[] = {1,2,3};
-cout << a[1]
-
-;    return 0;
+    if ('\0' == 0){
+int a[3];
+cout << a[0]<<endl;
+cout << a[1]<<endl;
+cout << a[2]<<endl;
+cout << a[4]<<endl;
+}
+ return 0;
 }
