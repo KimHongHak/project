@@ -5,7 +5,7 @@ using namespace std;
 // Mon = 4,
 // Tue = 2,
 // Wed,
-// Thu
+// Thusadasd
 // };
 // template <typename T> string type_name();
 struct d{
@@ -19,6 +19,7 @@ cout << a[0]<<endl;
 cout << a[1]<<endl;
 cout << a[2]<<endl;
 cout << a[4]<<endl;
+cout << "xxx";
 }
  return 0;
 }

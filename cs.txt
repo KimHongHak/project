@@ -1,0 +1,26 @@
+[Computer Science]:
+Theoretical computer science
+	Theory of computation
+	Information and coding theory
+	Data structures and algorithms
+	Programming language theory and formal methods
+Applied computer science
+	Computer graphics and visualization
+	Image and sound processing (Data processing)
+	Computational science, finance and engineering
+	Social computing and human–computer interaction
+	Software engineering
+	Artificial intelligence
+Computer systems
+	Computer architecture and organization
+	Concurrent, parallel and distributed computing
+	Computer networks
+	Computer security and cryptography
+	Databases and data mining
+
+[Programming paradigms]:
+	Functional programming
+	Imperative programming
+	Object-oriented programming
+	Service-oriented programming
+	
