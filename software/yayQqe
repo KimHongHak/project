@@ -115,6 +115,7 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
+gnome-shell-pomodoro
 gnome-software
 gnome-sound-recorder
 gnome-sudoku
@@ -130,6 +131,7 @@ gnome-user-share
 gnome-weather
 gns3-gui
 gns3-server
+goldendict-webengine-pr-git
 google-chrome
 gptfdisk
 granatier
@@ -152,6 +154,7 @@ iagno
 ibus
 ibus-anthy
 ibus-autostart
+ifuse
 imagemagick
 inetutils
 inkscape
@@ -314,6 +317,7 @@ neovide
 network-manager-applet
 networkmanager
 nginx-mainline
+ngrep
 nodejs
 noto-fonts
 noto-fonts-cjk
@@ -350,19 +354,24 @@ postgresql-docs
 postman-bin
 poxml
 pulseaudio
+pycharm-community-edition
 python-django
 python-flask
 python-matplotlib
 python-pip
+python-pipenv
 python-pynvim
 qemu-full
 qt5-wayland
 qt5ct
 quadrapassel
+r
 rar
 reflector
 ristretto
 rocs
+rstudio-desktop-bin
+rustup
 rygel
 seahorse
 simple-scan
@@ -373,6 +382,7 @@ skladnik
 snapshot
 spectacle
 step
+sublime-text-4
 sudo
 sushi
 svgpart
@@ -412,6 +422,7 @@ thunar-volman
 tokodon
 totem
 tracker3-miners
+ts-node
 ttf-0xproto-nerd
 ttf-3270-nerd
 ttf-agave-nerd
@@ -464,6 +475,7 @@ ttf-ubuntu-mono-nerd
 ttf-ubuntu-nerd
 ttf-victor-mono-nerd
 tumbler
+typescript
 ubridge
 ufw
 umbrello
@@ -532,5 +544,6 @@ yay
 yaze
 yelp
 zanshin
+zenmap
 zip
 zoom

@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5)
+SET(CMAKE_COLOR_DIAGNOSTICS ON)
+project(testcmake)
+add_executable(cow main.cpp)
+add_executable(poly polymorphism/polymorphismtest.cpp)

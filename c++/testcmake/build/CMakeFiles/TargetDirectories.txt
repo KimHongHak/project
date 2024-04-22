@@ -1,0 +1,4 @@
+/home/jame/Desktop/project/c++/testcmake/build/CMakeFiles/cow.dir
+/home/jame/Desktop/project/c++/testcmake/build/CMakeFiles/poly.dir
+/home/jame/Desktop/project/c++/testcmake/build/CMakeFiles/edit_cache.dir
+/home/jame/Desktop/project/c++/testcmake/build/CMakeFiles/rebuild_cache.dir
