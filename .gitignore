@@ -7,3 +7,5 @@ rust/**/target
 *.o
 *.exe
 librepcb/v0.1
+c/**/build
+c++/**/build
