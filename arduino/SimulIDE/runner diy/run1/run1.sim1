@@ -1,0 +1,29 @@
+<circuit version="1.0.0-SR2" rev="1449" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="520,548" rotation="360" hflip="1" vflip="1" label="Uno-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="1_mega328-109" mainComp="true" Show_id="true" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="1_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="run.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="I2CToParallel" CircId="I2CToParallel-35" mainComp="false" Show_id="false" Show_Val="false" Pos="516,524" rotation="270" hflip="1" vflip="1" label="I2CToParallel-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Control_Code="80" Frequency="100 _KHz" />
+
+<item itemtype="Hd44780" CircId="Hd44780-36" mainComp="false" Show_id="true" Show_Val="false" Pos="476,440" rotation="0" hflip="1" vflip="1" label="Hd44780-36" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2 _Rows" Cols="16 _Columns" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="I2CToParallel-35-out0" endpinid="Hd44780-36-PinRS" pointList="492,500,492,448" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="I2CToParallel-35-out1" endpinid="Hd44780-36-PinRW" pointList="500,500,500,448" />
+
+<item itemtype="Connector" uid="Connector-56" startpinid="I2CToParallel-35-out2" endpinid="Hd44780-36-PinEn" pointList="508,500,508,448" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="I2CToParallel-35-out4" endpinid="Hd44780-36-dataPin4" pointList="524,500,524,460,548,460,548,448" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="I2CToParallel-35-out5" endpinid="Hd44780-36-dataPin5" pointList="532,500,532,464,556,464,556,448" />
+
+<item itemtype="Connector" uid="Connector-59" startpinid="I2CToParallel-35-out6" endpinid="Hd44780-36-dataPin6" pointList="540,500,540,468,564,468,564,448" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="I2CToParallel-35-out7" endpinid="Hd44780-36-dataPin7" pointList="548,500,548,472,572,472,572,448" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="I2CToParallel-35-in1" endpinid="Uno-1-3" pointList="508,548,508,588,528,588" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="I2CToParallel-35-in0" endpinid="Uno-1-4" pointList="500,548,500,596,528,596" />
+
+</circuit>
