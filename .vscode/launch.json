@@ -2,6 +2,62 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "x",
+      "request": "launch",
+      "mainClass": "x",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": ""
+    },
+    {
+      "type": "java",
+      "name": "Interface",
+      "request": "launch",
+      "mainClass": "pkginterface.Interface",
+      "projectName": "Intellij"
+    },
+    {
+      "type": "java",
+      "name": "JOptionpane",
+      "request": "launch",
+      "mainClass": "JOptionPane.JOptionpane",
+      "projectName": "Intellij"
+    },
+    {
+      "type": "java",
+      "name": "BankName",
+      "request": "launch",
+      "mainClass": "polymorphism.BankName",
+      "projectName": "Intellij"
+    },
+    {
+      "type": "java",
+      "name": "Animaltest",
+      "request": "launch",
+      "mainClass": "abstractclass.Animaltest",
+      "projectName": "Intellij"
+    },
+    {
+      "type": "java",
+      "name": "Helloworld",
+      "request": "launch",
+      "mainClass": "Helloworld.Helloworld",
+      "projectName": "Intellij"
+    },
+    {
+      "type": "java",
+      "name": "InputOutput",
+      "request": "launch",
+      "mainClass": "InputOutput.InputOutput",
+      "projectName": "Intellij"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
