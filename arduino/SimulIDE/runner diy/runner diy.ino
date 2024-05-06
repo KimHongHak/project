@@ -27,6 +27,7 @@
 #define HERO_POSITION_RUN_UPPER_1 11 // Hero is running on upper row (pose 1)
 #define HERO_POSITION_RUN_UPPER_2 12 //                              (pose 2)
 LiquidCrystal_I2C lcd(80, 16, 2);
+// LiquidCrystal_I2C lcd(0x27, 16, 2);
 static char terrainUpper[TERRAIN_WIDTH + 1];
 static char terrainLower[TERRAIN_WIDTH + 1];
 static bool buttonPushed = false;
