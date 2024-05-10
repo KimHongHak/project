@@ -1,4 +1,4 @@
-package awt;
+package awt.exercise;
 import java.awt.*;
 import java.awt.event.*;
 public class Student_form extends Frame {

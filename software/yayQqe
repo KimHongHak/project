@@ -5,6 +5,7 @@ arduino
 arduino-avr-core
 arduino-docs
 arduino-ide-bin
+atop
 baobab
 base
 base-devel
@@ -12,13 +13,13 @@ binder_linux-dkms
 bluez
 bluez-utils
 bochs
+btop
 bun-bin
 caddy
 cage
 cheese
 chromium
 clang
-code-marketplace
 cppman
 cups
 d-spy
@@ -113,6 +114,7 @@ gptfdisk
 grilo-plugins
 grub
 gst-libav
+gtk4-docs
 gvfs
 gvfs-afc
 gvfs-goa
@@ -133,6 +135,7 @@ inetutils
 inkscape
 intellij-idea-community-edition
 iwd
+kotlin
 libreoffice-still
 libvirt
 lightdm
@@ -184,9 +187,11 @@ postgresql
 postgresql-docs
 postman-bin
 pulseaudio
+pycharm-community-edition
 python-django
 python-flask
 python-matplotlib
+python-pandas
 python-pip
 python-pipenv
 python-pynvim
@@ -194,6 +199,8 @@ python-tzlocal
 qemu-full
 qt5-wayland
 qt5ct
+qt6-doc
+qtcreator
 quadrapassel
 r
 rar
@@ -215,6 +222,7 @@ sushi
 swell-foop
 sysprof
 tali
+tcc
 tecla
 texlive-basic
 texlive-bibtexextra
@@ -302,7 +310,9 @@ ubridge
 ufw
 unzip
 vim
+visual-studio-code-bin
 vpcs
+vtop
 waydroid
 weston
 which

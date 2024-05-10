@@ -29,6 +29,7 @@ int pop(stack *s)
         exit(1);
     }
     else
+
     {
         s->top = s->top - 1;
         int r = s->items[s->top];

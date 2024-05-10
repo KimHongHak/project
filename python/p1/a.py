@@ -1,3 +1,4 @@
+# hello world
 def sum_matrix():
     A = []
     B = []
@@ -7,6 +8,7 @@ def sum_matrix():
     # input matrix A
     for i in range(m):
         a = []
+
         for j in range(n):
             a.append(int(input()))
         A.append(a)

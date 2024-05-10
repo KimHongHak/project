@@ -3,6 +3,72 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Maintest3",
+      "request": "launch",
+      "mainClass": "arraylists.Maintest3"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListEditData",
+      "request": "launch",
+      "mainClass": "arraylistedit.ArrayListEditData"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListSort",
+      "request": "launch",
+      "mainClass": "arraylists.ArrayListSort"
+    },
+    {
+      "type": "java",
+      "name": "Helloworld",
+      "request": "launch",
+      "mainClass": "Helloworld.Helloworld"
+    },
+    {
+      "type": "java",
+      "name": "DemoEventClose2",
+      "request": "launch",
+      "mainClass": "awt.event.DemoEventClose2"
+    },
+    {
+      "type": "java",
+      "name": "DemoPanel1",
+      "request": "launch",
+      "mainClass": "awtLayout.DemoPanel1"
+    },
+    {
+      "type": "java",
+      "name": "DemoGridLayout",
+      "request": "launch",
+      "mainClass": "awtLayout.DemoGridLayout"
+    },
+    {
+      "type": "java",
+      "name": "Card",
+      "request": "launch",
+      "mainClass": "awtLayout.Card"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main"
+    },
+    {
+      "type": "java",
+      "name": "Pizza",
+      "request": "launch",
+      "mainClass": "awt.Pizza"
+    },
+    {
+      "type": "java",
+      "name": "Animaltest",
+      "request": "launch",
+      "mainClass": "abstractclass.Animaltest"
+    },
+    {
+      "type": "java",
       "name": "x",
       "request": "launch",
       "mainClass": "x",

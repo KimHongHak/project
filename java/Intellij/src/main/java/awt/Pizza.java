@@ -13,7 +13,7 @@ public class Pizza extends Frame{
 
     private Label lblPrice = new Label("Qty: ");
     private TextField txtPrice = new TextField();
-    private Label lblqty = new Label("Qty: ");
+    private Label lblqty = new Label("qty: ");
     private TextField txtqty = new TextField();
     private TextArea txtDisplay = new TextArea();
     private Button btnadd = new Button("add");
@@ -63,7 +63,7 @@ public class Pizza extends Frame{
             public void actionPerformed(ActionEvent actionEvent) {
                 String txtservice = "";
                 txtDisplay.append(txtPrice.getText()+"\t" + txtqty.getText()+"\t"+chkind.getSelectedItem()+"\t");
-            if(cbo1.getState()==true)txtservice = "Small";
+            if(cbo1.getState()==true)txtservice = "cSmall";
             if(cbo2.getState()==true ) txtservice = "Meium";
             if(cbo3.getState()==true) txtservice = "Long";
             txtDisplay.append(txtservice+"\n");
