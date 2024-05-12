@@ -3,6 +3,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BookStore",
+      "request": "launch",
+      "mainClass": "awt.BookStore"
+    },
+    {
+      "type": "java",
+      "name": "SecondForm",
+      "request": "launch",
+      "mainClass": "awt.SecondForm"
+    },
+    {
+      "type": "java",
+      "name": "Product",
+      "request": "launch",
+      "mainClass": "awt.Product"
+    },
+    {
+      "type": "java",
+      "name": "clo",
+      "request": "launch",
+      "mainClass": "awt.clo"
+    },
+    {
+      "type": "java",
+      "name": "ReverseOrder",
+      "request": "launch",
+      "mainClass": "arraylists.ReverseOrder"
+    },
+    {
+      "type": "java",
+      "name": "Maintest1",
+      "request": "launch",
+      "mainClass": "arraylists.Maintest1"
+    },
+    {
+      "type": "java",
+      "name": "MainTest",
+      "request": "launch",
+      "mainClass": "arraylists.MainTest"
+    },
+    {
+      "type": "java",
       "name": "Maintest3",
       "request": "launch",
       "mainClass": "arraylists.Maintest3"
