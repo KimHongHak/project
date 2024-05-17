@@ -108,6 +108,7 @@ gnome-user-share
 gnome-weather
 gns3-gui
 gns3-server
+gnu-netcat
 goldendict-webengine-pr-git
 google-chrome
 gptfdisk
@@ -134,8 +135,10 @@ imagemagick
 inetutils
 inkscape
 intellij-idea-community-edition
+iptables-nft
 iwd
 kotlin
+libc++
 libreoffice-still
 libvirt
 lightdm
@@ -181,6 +184,7 @@ otf-monaspace-nerd
 otf-opendyslexic-nerd
 otf-overpass-nerd
 packettracer
+pacman-contrib
 parole
 polari
 postgresql
@@ -270,6 +274,7 @@ ttf-envycoder-nerd
 ttf-fantasque-nerd
 ttf-firacode-nerd
 ttf-go-nerd
+ttf-gohu-nerd
 ttf-hack-nerd
 ttf-heavydata-nerd
 ttf-iawriter-nerd
@@ -280,6 +285,7 @@ ttf-inconsolata-nerd
 ttf-intone-nerd
 ttf-iosevka-nerd
 ttf-iosevkaterm-nerd
+ttf-iosevkatermslab-nerd
 ttf-jetbrains-mono-nerd
 ttf-lekton-nerd
 ttf-liberation-mono-nerd
@@ -295,6 +301,7 @@ ttf-nerd-fonts-symbols-mono
 ttf-noto-nerd
 ttf-profont-nerd
 ttf-proggyclean-nerd
+ttf-recursive-nerd
 ttf-roboto-mono-nerd
 ttf-sharetech-mono-nerd
 ttf-sourcecodepro-nerd
@@ -304,12 +311,14 @@ ttf-tinos-nerd
 ttf-ubuntu-mono-nerd
 ttf-ubuntu-nerd
 ttf-victor-mono-nerd
+ttf-zed-mono-nerd
 tumbler
 typescript
 ubridge
 ufw
 unzip
 vim
+virt-manager
 visual-studio-code-bin
 vpcs
 vtop
@@ -371,7 +380,6 @@ xfwm4-themes
 xorg-fonts-misc
 xterm
 yay
-yaze
 yelp
 zenmap
 zip

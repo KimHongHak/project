@@ -21,6 +21,7 @@
 
 #include <cassert>   /// for assert
 #include <iostream>  /// for IO operations
+#include <cstdint>
 
 /**
  * @brief Mathematical algorithms

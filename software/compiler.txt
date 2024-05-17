@@ -1,0 +1,7 @@
+clang   
+gcc 
+msvc 
+tcc
+
+c library: glibc, apple libc, llvm libc, CRT(UCRT, MSVCRT), uclibc, musl, dietlibc
+c++ library: libstdc++, libc++, libcu++, MSVC STL, HPX, EASTL

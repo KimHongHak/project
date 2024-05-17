@@ -1,0 +1,5 @@
+Start QEMU with /bin/qemu-system-x86_64 -name vm-1 -m 2000M -smp cpus=2,sockets=1 -enable-kvm -machine smm=off -boot order=d -cdrom /run/media/jame/DATA/windowsAll/ubuntu-22.04.2-desktop-amd64.iso -drive file=/home/jame/Desktop/project/GNS3/web/project-files/qemu/d9266237-fd41-4edf-b4ec-f6cabc56839b/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid d9266237-fd41-4edf-b4ec-f6cabc56839b -monitor tcp:127.0.0.1:42521,server,nowait -net none -device e1000,mac=0c:26:62:37:00:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10009,localaddr=127.0.0.1:10008
+
+Execution log:
+Gtk-Message: 15:19:48.502: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 15:19:48.503: Failed to load module "window-decorations-gtk-module"

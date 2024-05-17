@@ -3,6 +3,12 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Student_form",
+      "request": "launch",
+      "mainClass": "awt.exercise.Student_form"
+    },
+    {
+      "type": "java",
       "name": "BookStore",
       "request": "launch",
       "mainClass": "awt.BookStore"

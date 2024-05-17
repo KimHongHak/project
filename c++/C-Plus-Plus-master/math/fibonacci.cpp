@@ -10,6 +10,7 @@
  */
 #include <cassert>
 #include <iostream>
+#include <cstdint>
 
 /**
  * Recursively compute sequences

@@ -1,0 +1,5 @@
+Start QEMU with /bin/qemu-system-x86_64 -name linux-1 -m 2000M -smp cpus=2,sockets=1 -enable-kvm -machine smm=off -boot order=d -cdrom /run/media/jame/DATA/windowsAll/AlmaLinux-8.9-x86_64-Live-XFCE.iso -drive file=/home/jame/Desktop/project/GNS3/linux/project-files/qemu/88343fe8-b075-470e-b220-4c27d2ca5ecb/hda_disk.qcow2,if=ide,index=0,media=disk,id=drive0 -uuid 88343fe8-b075-470e-b220-4c27d2ca5ecb -monitor tcp:127.0.0.1:43009,server,nowait -net none -device e1000,mac=0c:34:3f:e8:00:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10001,localaddr=127.0.0.1:10000
+
+Execution log:
+Gtk-Message: 23:45:17.037: Failed to load module "colorreload-gtk-module"
+Gtk-Message: 23:45:17.038: Failed to load module "window-decorations-gtk-module"
