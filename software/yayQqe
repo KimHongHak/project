@@ -9,6 +9,7 @@ atop
 baobab
 base
 base-devel
+bash-completion
 binder_linux-dkms
 bluez
 bluez-utils
@@ -55,8 +56,6 @@ gnome-2048
 gnome-backgrounds
 gnome-boxes
 gnome-builder
-gnome-builder-clang
-gnome-builder-flatpak
 gnome-calculator
 gnome-calendar
 gnome-characters
@@ -124,6 +123,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+hexedit
 hitori
 htop
 iagno
@@ -170,6 +170,7 @@ noto-fonts-cjk
 npm
 ntfs-3g
 obs-studio
+openjdk-doc
 orca
 otf-aurulent-nerd
 otf-codenewroman-nerd
@@ -200,6 +201,7 @@ python-pip
 python-pipenv
 python-pynvim
 python-tzlocal
+qbittorrent
 qemu-full
 qt5-wayland
 qt5ct
@@ -224,10 +226,13 @@ sublime-text-4
 sudo
 sushi
 swell-foop
+swtpm
 sysprof
 tali
 tcc
 tecla
+telegram-desktop
+testdisk
 texlive-basic
 texlive-bibtexextra
 texlive-binextra
@@ -255,6 +260,7 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 totem
+toybox
 tracker3-miners
 ts-node
 ttf-0xproto-nerd
@@ -317,6 +323,7 @@ typescript
 ubridge
 ufw
 unzip
+uutils-coreutils
 vim
 virt-manager
 visual-studio-code-bin
@@ -384,3 +391,4 @@ yelp
 zenmap
 zip
 zoom
+zsh-completions
