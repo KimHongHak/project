@@ -1,0 +1,275 @@
+
+<!-- saved from url=(0060)https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm -->
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word 10">
+<meta name="Originator" content="Microsoft Word 10">
+<link rel="File-List" href="https://imada.sdu.dk/u/kslarsen/dm546/Material/classnotes_8_IntelnATT_files/filelist.xml">
+<title>Intel and AT&amp;T Syntax</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>comp sci dept</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>comp sci dept</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>2</o:TotalTime>
+  <o:Created>2001-09-12T08:04:00Z</o:Created>
+  <o:LastSaved>2001-09-12T08:04:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>482</o:Words>
+  <o:Characters>2750</o:Characters>
+  <o:Company>University of Mississippi</o:Company>
+  <o:Lines>22</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3226</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:PMingLiU;
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-alt:\65B0\7D30\660E\9AD4;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+@font-face
+	{font-family:"\@PMingLiU";
+	panose-1:2 2 3 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 137232384 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:PMingLiU;}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:PMingLiU;}
+pre
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:PMingLiU;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]-->
+</head>
+
+<body lang="EN-US" style="tab-interval:.5in">
+
+<div class="Section1">
+
+<h2><a name="Syntax">CSCI 223 Computer Organisation and Assembly Language</a></h2>
+
+<h2><span style="mso-bookmark:Syntax">Intel and AT&amp;T Syntax.</span></h2>
+
+<span style="mso-bookmark:Syntax"></span>
+
+<p>Intel and AT&amp;T syntax Assembly language are very different from each
+other in appearance, and this will lead to confusion when one first comes
+across AT&amp;T syntax after having learnt Intel syntax first, or vice versa.
+So lets start with the basics. </p>
+
+<h3><a name="Prefixes">Prefixes.</a></h3>
+
+<span style="mso-bookmark:Prefixes"></span>
+
+<p>In Intel syntax there are no register prefixes or immed prefixes. In
+AT&amp;T however registers are prefixed with a '%' and immed's are prefixed
+with a '$'. Intel syntax hexadecimal or binary immed data are suffixed with 'h'
+and 'b' respectively. Also if the first hexadecimal digit is a letter then the
+value is prefixed by a '0'.</p>
+
+<p class="MsoNormal">Example:</p>
+
+<table class="MsoNormalTable" border="1" cellpadding="0" style="mso-cellspacing:1.5pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">Intex Syntax</p>
+  <pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,1</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>ebx,0ffh</pre><pre>int<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>80h</pre></td>
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">AT&amp;T Syntax</p>
+  <pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>$1,%eax</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>$0xff,%ebx</pre><pre>int <span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>$0x80</pre></td>
+ </tr>
+</tbody></table>
+
+<h3><a name="Direction">Direction of Operands.</a></h3>
+
+<span style="mso-bookmark:Direction"></span>
+
+<p>The direction of the operands in Intel syntax is opposite from that of
+AT&amp;T syntax. In Intel syntax the first operand is the destination, and the
+second operand is the source whereas in AT&amp;T syntax the first operand is
+the source and the second operand is the destination. The advantage of AT&amp;T
+syntax in this situation is obvious. We read from left to right, we write from
+left to right, so this way is only natural.</p>
+
+<p class="MsoNormal">Example:</p>
+
+<table class="MsoNormalTable" border="1" cellpadding="0" style="mso-cellspacing:1.5pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">Intex Syntax</p>
+  <pre>instr<span style="mso-tab-count:1">&nbsp;&nbsp; </span>dest,source</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ecx]</pre></td>
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">AT&amp;T Syntax</p>
+  <pre>instr <span style="mso-tab-count:1">&nbsp; </span>source,dest</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>(%ecx),%eax</pre></td>
+ </tr>
+</tbody></table>
+
+<h3><a name="Memory">Memory Operands.</a></h3>
+
+<span style="mso-bookmark:Memory"></span>
+
+<p>Memory operands as seen above are different also. In Intel syntax the base
+register is enclosed in '[' and ']' whereas in AT&amp;T syntax it is enclosed
+in '(' and ')'. </p>
+
+<p class="MsoNormal">Example:</p>
+
+<table class="MsoNormalTable" border="1" cellpadding="0" style="mso-cellspacing:1.5pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">Intex Syntax</p>
+  <pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx]</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx+3]</pre></td>
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">AT&amp;T Syntax</p>
+  <pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>(%ebx),%eax</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>3(%ebx),%eax </pre></td>
+ </tr>
+</tbody></table>
+
+<p>The AT&amp;T form for instructions involving complex operations is very
+obscure compared to Intel syntax. The Intel syntax form of these is
+segreg:[base+index*scale+disp]. The AT&amp;T syntax form is %segreg:disp(base,index,scale).
+</p>
+
+<p>Index/scale/disp/segreg are all optional and can simply be left out. Scale,
+if not specified and index is specified, defaults to 1. Segreg depends on the
+instruction and whether the app is being run in real mode or pmode. In real
+mode it depends on the instruction whereas in pmode its unnecessary. Immediate
+data used should not '$' prefixed in AT&amp;T when used for scale/disp.</p>
+
+<p class="MsoNormal">Example:</p>
+
+<table class="MsoNormalTable" border="1" cellpadding="0" style="mso-cellspacing:1.5pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">Intel Syntax</p>
+  <pre>instr <span style="mso-tab-count:1">&nbsp; </span>foo,segreg:[base+index*scale+disp]</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx+20h]</pre><pre>add<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx+ecx*2h</pre><pre>lea<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx+ecx]</pre><pre>sub<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,[ebx+ecx*4h-20h]</pre></td>
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">AT&amp;T Syntax</p>
+  <pre>instr<span style="mso-tab-count:1">&nbsp;&nbsp; </span>%segreg:disp(base,index,scale),foo</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>0x20(%ebx),%eax</pre><pre>addl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>(%ebx,%ecx,0x2),%eax</pre><pre>leal<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>(%ebx,%ecx),%eax</pre><pre>subl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>-0x20(%ebx,%ecx,0x4),%eax</pre></td>
+ </tr>
+</tbody></table>
+
+<p>As you can see, AT&amp;T is very obscure. [base+index*scale+disp] makes more
+sense at a glance than disp(base,index,scale).</p>
+
+<h3><a name="Suffixes">Suffixes.</a></h3>
+
+<span style="mso-bookmark:Suffixes"></span>
+
+<p>As you may have noticed, the AT&amp;T syntax mnemonics have a suffix. The
+significance of this suffix is that of operand size. 'l' is for long, 'w' is
+for word, and 'b' is for byte. Intel syntax has similar directives for use with
+memory operands, i.e. byte ptr, word ptr, dword ptr. "dword" of
+course corresponding to "long". This is similar to type casting in C
+but it doesnt seem to be necessary since the size of registers used is the
+assumed datatype.</p>
+
+<p class="MsoNormal">Example:</p>
+
+<table class="MsoNormalTable" border="1" cellpadding="0" style="mso-cellspacing:1.5pt">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-lastrow:yes">
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">Intel Syntax</p>
+  <pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>al,bl</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>ax,bx</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax,ebx</pre><pre>mov<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp; </span>eax, dword ptr [ebx]</pre></td>
+  <td style="padding:.75pt .75pt .75pt .75pt">
+  <p class="MsoNormal">AT&amp;T Syntax</p>
+  <pre>movb<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>%bl,%al</pre><pre>movw<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>%bx,%ax</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>%ebx,%eax</pre><pre>movl<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp; </span>(%ebx),%eax</pre></td>
+ </tr>
+</tbody></table>
+
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+</div>
+
+
+
+
+</body></html>

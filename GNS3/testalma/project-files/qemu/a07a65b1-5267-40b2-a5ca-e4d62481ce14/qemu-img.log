@@ -1,0 +1,1 @@
+Formatting '/home/jame/Desktop/project/GNS3/testalma/project-files/qemu/a07a65b1-5267-40b2-a5ca-e4d62481ce14/hda_disk.qcow2', fmt=qcow2 cluster_size=65536 extended_l2=off compression_type=zlib size=10737418240 backing_file=/home/jame/GNS3/images/QEMU/empty10G.qcow2 backing_fmt=qcow2 lazy_refcounts=off refcount_bits=16
