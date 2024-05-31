@@ -22,9 +22,13 @@ public class RecieptForm extends JFrame{
         add(RecieptNumber);
         Total.setBounds(10,70,100,20);
         add(Total);
+        printjtable();
 
+
+    }
+    void printjtable(){
         String data[][]={ {"10","repair brake","$600","$12000"},
-             };
+        };
         String column[]={"QTY","Description","Unit Price","Amount"};
         JTable jt=new JTable(data,column);
 //        jt.setBounds(10, 90,100,200);
@@ -32,16 +36,14 @@ public class RecieptForm extends JFrame{
         sp.setBounds(40, 100,400,500);
         add(sp);
     }
-
     RecieptForm(){
 
         setLocationRelativeTo(null);
         setTitle("Receiption Form");
-        setSize(500,700);
+        setSize(500,800);
         setLayout(null);
         setResizable(false);
-    dosetBoundsandadd();
         setVisible(true);
-
+        dosetBoundsandadd();
     }
 }
