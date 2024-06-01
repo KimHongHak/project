@@ -1,3 +1,8 @@
+/*
+This ReceiptForm is written by James1freedictionary (brorojame2030@gmail.com)
+copyright (c) 2024, james1freedictionary
+ */
+
 package io.github.james1freedictionary.project.java.CarRepairShop;
 import javax.swing.*;
 import java.awt.*;
