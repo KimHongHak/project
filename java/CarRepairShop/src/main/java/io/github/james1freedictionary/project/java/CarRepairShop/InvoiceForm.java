@@ -1,3 +1,8 @@
+/*
+This InvoiceForm is written by James1freedictionary (brorojame2030@gmail.com)
+copyright (c) 2024, james1freedictionary
+ */
+
 package io.github.james1freedictionary.project.java.CarRepairShop;
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -91,7 +96,7 @@ public class InvoiceForm extends JFrame {
 
     }
     ImageIcon fimgicon(){
-        ImageIcon icon = new  ImageIcon(new File("").getAbsolutePath() + "/src/main/java/io/github/james1freedictionary/project/java/CarRepairShop/img/car.jpg");
+        ImageIcon icon = new  ImageIcon(new File("").getAbsolutePath() + "/src/main/java/io/github/james1freedictionary/project/java/CarRepairShop/img/car.png");
         Image img = icon.getImage().getScaledInstance(90,90,Image.SCALE_DEFAULT);
         icon = new ImageIcon(img);
         return icon;
